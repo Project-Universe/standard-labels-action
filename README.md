@@ -21,7 +21,7 @@ jobs:
     steps:
     - uses: actions/setup-node@v2
       with:
-        node-version: '14'
+        node-version: '16'
     - uses: Project-Universe/standard-labels-action@main
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
