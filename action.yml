@@ -1,5 +1,5 @@
-name: 'J-dogcoder labels Action'
-description: 'Import the labels @J-dogcoder uses in his projects'
+name: 'Project Universe Standard Labels'
+description: 'Import the labels @Project-Universe uses in projects'
 branding:
   icon: check
   color: black
