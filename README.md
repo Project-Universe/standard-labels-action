@@ -1,20 +1,17 @@
 # Issue labels generator
 
-Adds labels used by j-dogcoder
-
-# WARNING:
-Will delete previous labels.
+Adds labels used by @Project-Universe
 
 ## Usage
 
 To use this Action, you only need the yaml file below.
 
 ```yaml
-name: Import open source standard labels
+name: Import Project Universe Standard Labels
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, dev ]
 
 jobs:
   labels:
@@ -25,7 +22,7 @@ jobs:
     - uses: actions/setup-node@v2
       with:
         node-version: '14'
-    - uses: j-dogcoder/gh-action-labels@main
+    - uses: Project-Universe/standard-labels-action@main
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         owner-name: ${{ github.repository_owner }}
