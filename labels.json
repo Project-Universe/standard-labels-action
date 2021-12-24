@@ -50,5 +50,9 @@
   {
     "name": "feature request",
     "color": "BFD4F2"
+  },
+  {
+    "name": "automerge",
+    "color": "b60205"
   }
 ]
