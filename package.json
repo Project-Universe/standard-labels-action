@@ -1,19 +1,19 @@
 {
-  "name": "gh-action-open-source-labels",
+  "name": "labelz",
   "version": "0.1.0",
-  "description": "GitHub Action to create open source standards labels",
+  "description": "GitHub Action to create Jasper Mayone's standard repo labels.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EddieHubCommunity/gh-action-open-source-labels.git"
+    "url": "git+https://github.com/jaspermayone/labelz.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/EddieHubCommunity/gh-action-open-source-labels/issues"
+    "url": "https://github.com/jaspermayone/labelz/issues"
   },
-  "homepage": "https://github.com/EddieHubCommunity/gh-action-open-source-labels#readme"
+  "homepage": "https://github.com/jaspermayone/labelz#readme"
 }
